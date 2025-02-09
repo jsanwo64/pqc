@@ -40,4 +40,5 @@ def check_quality():
     })
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    from gunicorn.app.wsgiapp import run
+    run()

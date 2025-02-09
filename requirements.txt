@@ -1,0 +1,5 @@
+flask
+gunicorn==21.2.0
+opencv-python-headless
+scikit-image==0.22.0
+numpy
